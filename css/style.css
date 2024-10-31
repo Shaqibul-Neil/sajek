@@ -1,0 +1,120 @@
+
+*{
+	padding: 0;
+	outline: none;
+	margin:0;
+	border:none;
+	font-family: "roboto", sans-serif;
+	text-decoration: none;
+}
+body{
+	background-image: url(../images/sajek1.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+header {
+	display: flex;
+	position: absolute;
+	width: 100%;
+	justify-content: center;
+	align-items: center;	
+}
+.navbar{
+	display: flex;
+	padding: 15px;
+	gap: 35px;
+	font-size: 18px;
+	background-color: rgba(255, 255, 255, 0.2);
+	height: 25px;
+	align-items: center;
+	backdrop-filter: blur(5px);
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.nav-item{
+	color: rgb(53, 53, 53);
+	width: 110px;
+	padding: 10px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	letter-spacing: 2px;
+}
+.nav-item-active{
+	color: white;
+	width: 110px;
+	padding: 20px 0px 15px 0px ;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-color: #b15c16;
+	text-align: center;
+	letter-spacing: 2px;
+	margin-bottom: 3px;
+}
+.nav-item:hover{
+	padding: 20px 0px 15px 0px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+	background-color: #e79d60;
+	text-align: center;
+	transition: 0.3s;
+}
+.content h1{
+	font-size: 70px;
+	width: 100%;
+	color: rgba(255, 255, 255, 1);
+	text-align: center;
+	letter-spacing: 40px;
+}
+.content h1:hover{
+	font-size: 80px;
+	transition: 0.3s;
+}
+	
+.content h2{
+	font-size: 30px;
+	width: 100%;
+	color: rgba(255, 255, 255, 0.4);
+	text-align: center;
+	letter-spacing: 20px;
+	text-transform: uppercase;	
+}
+.para{
+	font-size: 16px;
+	margin: 10px;
+	color: white;
+	text-align: center;
+	line-height: 1.8;
+	letter-spacing: 3px;
+	animation: zoomin;
+}
+.discover{
+	color: rgba(255, 255, 255, 0.4);
+	text-align: center;
+	font-size: 30px;
+	letter-spacing: 10px;
+}
+.more{
+	margin-left: 590px;
+}
+.arrow{
+	width: 70px;
+}
+.arrow:hover{
+	width: 80px;
+	transition: 0.5s;
+}
+.search{
+	padding:10px;
+	border:1px solid black;
+	background:transparent;
+	border-radius: 20px;
+	background-image: url(../images/search.png);
+	background-repeat: no-repeat;
+	background-position: right;
+	font-size: 16px;
+	color: black;
+	position: relative;
+}
